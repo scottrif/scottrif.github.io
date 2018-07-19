@@ -215,7 +215,7 @@
   <div class="section" id="documentation-generation-guide">
 <span id="doc-gen"></span><h1>Documentation Generation Guide<a class="headerlink" href="#documentation-generation-guide" title="Permalink to this headline">¶</a></h1>
 <p>These instructions will walk you through generating the Scott Project Project’s
-documentation and publishing it to the <a class="reference external" href="https://github.intel.com/pages/otc-tcs">documentation site</a>.
+documentation and publishing it to the <a class="reference external" href="https://scottrif.github.io/">documentation site</a>.
 You can also use these instructions to generate the Scott Project documentation
 on your local system.</p>
 <div class="section" id="documentation-overview">
@@ -231,8 +231,8 @@ their respective websites.</p>
 <p>The project’s documentation contains the following items:</p>
 <ul class="simple">
 <li>ReStructuredText source files used to generate documentation found at the
-<a class="reference external" href="https://github.intel.com/pages/otc-tcs">documentation site</a>. All of the reStructuredText sources
-are found in the <a class="reference external" href="https://github.intel.com/otc-tcs/documentation-template">documentation repo</a>.</li>
+<a class="reference external" href="https://scottrif.github.io/">documentation site</a>. All of the reStructuredText sources
+are found in the <a class="reference external" href="https://github.com/scottrif/doc-repo">documentation repo</a>.</li>
 </ul>
 <p>The reStructuredText files are processed by the Sphinx documentation system,
 and make use of the breathe extension for including the doxygen-generated API
@@ -266,7 +266,7 @@ publishing area that will come later.  It’s best if the <code class="docutils 
 folder is an ssh clone of your personal fork of the upstream project
 repos (though https clones work too):</p>
 <ol class="arabic">
-<li><p class="first">Use your browser to visit the <a class="reference external" href="https://github.intel.com/otc-tcs/documentation-template">documentation repo</a> and make a
+<li><p class="first">Use your browser to visit the <a class="reference external" href="https://github.com/scottrif/doc-repo">documentation repo</a> and make a
 fork of the repo to your personal GitHub account.</p>
 <img alt="../../_images/fork-docs.png" src="../../_images/fork-docs.png" />
 </li>
@@ -274,8 +274,8 @@ fork of the repo to your personal GitHub account.</p>
 <img alt="../../_images/copy-clone-url.png" src="../../_images/copy-clone-url.png" />
 </li>
 <li><p class="first">At a command prompt, create the working folder and clone
-the <a class="reference external" href="https://github.intel.com/otc-tcs/documentation-template">documentation repo</a> to your local computer (and if you
-have publishing rights, the <a class="reference external" href="https://github.intel.com/pages/otc-tcs">documentation site</a>). If you don’t have
+the <a class="reference external" href="https://github.com/scottrif/doc-repo">documentation repo</a> to your local computer (and if you
+have publishing rights, the <a class="reference external" href="https://scottrif.github.io/">documentation site</a>). If you don’t have
 publishing rights, you’ll still be able to generate the docs locally, but
 not publish them:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span> ~
@@ -365,7 +365,7 @@ output with your browser started at <code class="docutils literal notranslate"><
 </div>
 <div class="section" id="publishing-content">
 <h2>Publishing content<a class="headerlink" href="#publishing-content" title="Permalink to this headline">¶</a></h2>
-<p>If you have merge rights to the <a class="reference external" href="https://github.intel.com/otc-tcs/documentation-template">documentation repo</a>, you can update
+<p>If you have merge rights to the <a class="reference external" href="https://github.com/scottrif/doc-repo">documentation repo</a>, you can update
 the public project.</p>
 <p>You’ll need to do a one-time clone of the upstream repo (we publish
 directly to the upstream repo rather than to a personal forked copy):</p>
@@ -381,7 +381,7 @@ good, you can push directly to the publishing site with:</p>
 <p>This will delete everything in the publishing repo’s <strong>latest</strong> folder
 (in case the new version has
 deleted files) and push a copy of the newly-generated HTML content
-directly to the GitHub pages publishing repo. The <a class="reference external" href="https://github.intel.com/pages/otc-tcs">documentation site</a>
+directly to the GitHub pages publishing repo. The <a class="reference external" href="https://scottrif.github.io/">documentation site</a>
 will be updated within a few minutes, so it’s best to verify the
 locally generated html before publishing.</p>
 </div>
@@ -399,7 +399,7 @@ locally generated html before publishing.</p>
   <div role="contentinfo">
     <p>
         &copy; Copyright 2018, OTC-TCS Documentation Template.
-      Last updated on Jul 17, 2018.
+      Last updated on Jul 19, 2018.
 
     </p>
   </div> 
